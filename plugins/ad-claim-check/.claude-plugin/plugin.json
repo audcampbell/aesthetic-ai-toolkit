@@ -1,0 +1,10 @@
+{
+  "name": "ad-claim-check",
+  "version": "1.0.0",
+  "description": "Screen US aesthetics ads, captions, web pages and review replies for what the FTC, FDA, state boards, Meta or Google might flag, and get rewrites.",
+  "author": {
+    "name": "Audrey Campbell, MPH",
+    "url": "https://theaudreyaesthetic.com"
+  },
+  "license": "MIT"
+}

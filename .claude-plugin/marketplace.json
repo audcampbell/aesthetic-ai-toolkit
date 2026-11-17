@@ -16,6 +16,16 @@
       "name": "where-is-my-med-spa-losing-money",
       "source": "./plugins/where-is-my-med-spa-losing-money",
       "description": "Find the leak costing your med spa the most from ten monthly totals, and get a 30-day plan to fix it."
+    },
+    {
+      "name": "find-your-medical-director",
+      "source": "./plugins/find-your-medical-director",
+      "description": "Prepare for, compare and vet medical director candidates, spot red flags, and write a brief for your healthcare attorney. US, not legal advice."
+    },
+    {
+      "name": "ad-claim-check",
+      "source": "./plugins/ad-claim-check",
+      "description": "Screen US aesthetics ads, captions, web pages and review replies for what the FTC, FDA, state boards, Meta or Google might flag, and get rewrites."
     }
   ]
 }
