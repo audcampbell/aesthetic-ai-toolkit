@@ -1,0 +1,7 @@
+{
+  "name": "where-is-my-med-spa-losing-money",
+  "version": "1.0.0",
+  "description": "Find the leak costing your med spa the most from ten monthly totals, and get a 30-day plan to fix it.",
+  "author": { "name": "Audrey Campbell, MPH", "url": "https://theaudreyaesthetic.com" },
+  "license": "MIT"
+}

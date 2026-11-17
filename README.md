@@ -9,8 +9,9 @@ Each tool starts with your practice's own numbers, so what it gives back is your
 | Tool | What it does |
 |---|---|
 | [Price your treatment menu](plugins/price-your-treatment-menu) | Price every treatment from product cost, provider time and overhead. See your margin, find the treatments that lose money, and draft the menu patients see. Includes a spreadsheet and an AI skill. |
+| [Where is my med spa losing money?](plugins/where-is-my-med-spa-losing-money) | Enter ten totals from last month. See which leak costs you most (rebooking, inquiries, no-shows, retail, discounts), what it's worth, and get a 30-day plan for it. |
 
-More are on the way: a med spa money-leak diagnostic, an ad claim checker, a medical director kit, and a guide to claiming your practice in ChatGPT.
+More are on the way: an ad claim checker, a medical director kit, and a guide to claiming your practice in ChatGPT.
 
 ## Install
 
@@ -19,6 +20,7 @@ More are on the way: a med spa money-leak diagnostic, an ad claim checker, a med
 ```
 /plugin marketplace add audcampbell/aesthetic-ai-toolkit
 /plugin install price-your-treatment-menu@aesthetic-ai-toolkit
+/plugin install where-is-my-med-spa-losing-money@aesthetic-ai-toolkit
 ```
 
 **Claude app:** open Customize (or Plugins), choose Add marketplace, and paste `audcampbell/aesthetic-ai-toolkit`. Or download a skill folder as a zip and upload it under Skills.
