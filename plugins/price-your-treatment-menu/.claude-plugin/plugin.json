@@ -1,7 +1,10 @@
 {
   "name": "price-your-treatment-menu",
-  "version": "1.0.0",
-  "description": "Price every treatment from product cost, provider time and overhead, see your margin, and draft the patient-facing menu.",
-  "author": { "name": "Audrey Campbell, MPH", "url": "https://theaudreyaesthetic.com" },
+  "version": "1.1.0",
+  "description": "Price neurotoxin and filler per area (filler as a range), check every treatment's margin for members, and draft the patient-facing menu.",
+  "author": {
+    "name": "Audrey Campbell, MPH",
+    "url": "https://theaudreyaesthetic.com"
+  },
   "license": "MIT"
 }
