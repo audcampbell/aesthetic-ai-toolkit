@@ -1,0 +1,12 @@
+{
+  "name": "aesthetic-ai-toolkit",
+  "owner": { "name": "Audrey Campbell, MPH (The Audrey Aesthetic)" },
+  "metadata": { "description": "Free AI skills, calculators and kits for medical aesthetics practices." },
+  "plugins": [
+    {
+      "name": "price-your-treatment-menu",
+      "source": "./plugins/price-your-treatment-menu",
+      "description": "Price every treatment from product cost, provider time and overhead, see your margin, and draft the patient-facing menu."
+    }
+  ]
+}
