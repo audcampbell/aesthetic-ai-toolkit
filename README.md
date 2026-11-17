@@ -11,6 +11,7 @@ Each tool stands on its own. Take only the one you need. Each starts with your p
 | [Price your treatment menu](plugins/price-your-treatment-menu) | Price neurotoxin and filler per area (filler as a range), plus skin and device treatments. Check every treatment's margin for regular patients and for members. | [Skill (.zip)](downloads/price-your-treatment-menu.zip) |
 | [Where is my med spa losing money?](plugins/where-is-my-med-spa-losing-money) | Ten totals from last month. See which leak costs you most (rebooking, inquiries, no-shows, retail, discounts), and get a 30-day plan for it. | [Skill (.zip)](downloads/where-is-my-med-spa-losing-money.zip) |
 | [Find and vet your medical director](plugins/find-your-medical-director) | First-call questions, a scorecard for comparing candidates, red flags, and a brief for your healthcare attorney. US; not legal advice. | [Skill (.zip)](downloads/find-your-medical-director.zip) |
+| [Claim your practice in ChatGPT](plugins/claim-your-practice-in-chatgpt) | See what ChatGPT, Gemini and Perplexity say about you, claim your ChatGPT Business Hub listing, fix wrong details, and track mentions monthly. | [Skill (.zip)](downloads/claim-your-practice-in-chatgpt.zip) |
 | [Ad Claim Check](plugins/ad-claim-check) | Screens US ads, captions, web pages and review replies for what the FTC, FDA, state boards, Meta or Google might flag, and rewrites them. Not legal advice. | [Skill (.zip)](downloads/ad-claim-check.zip) |
 
 Want them all? [Download every tool at once (.zip)](downloads/aesthetic-ai-toolkit-all.zip).
@@ -29,7 +30,7 @@ Want them all? [Download every tool at once (.zip)](downloads/aesthetic-ai-toolk
 /plugin install price-your-treatment-menu@aesthetic-ai-toolkit
 ```
 
-Swap in `where-is-my-med-spa-losing-money`, `find-your-medical-director` or `ad-claim-check` for the others.
+Swap in `where-is-my-med-spa-losing-money`, `find-your-medical-director`, `ad-claim-check` or `claim-your-practice-in-chatgpt` for the others.
 
 **ChatGPT or any other AI:** open the tool's `SKILL.md` and paste it into a Project's instructions, or at the top of a new chat.
 

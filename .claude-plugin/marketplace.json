@@ -26,6 +26,11 @@
       "name": "ad-claim-check",
       "source": "./plugins/ad-claim-check",
       "description": "Screen US aesthetics ads, captions, web pages and review replies for what the FTC, FDA, state boards, Meta or Google might flag, and get rewrites."
+    },
+    {
+      "name": "claim-your-practice-in-chatgpt",
+      "source": "./plugins/claim-your-practice-in-chatgpt",
+      "description": "See what ChatGPT and other AI assistants say about your practice, claim your ChatGPT Business Hub listing, fix wrong details, and track mentions monthly."
     }
   ]
 }
