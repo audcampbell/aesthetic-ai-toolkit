@@ -26,7 +26,7 @@ Average ticket: $500. Revenue per booked hour: $521.74.
 | Appointments lost | 13.0% | at most 8% | $6,960 |
 | Retail | 5% of services | 10% | $6,000 in sales |
 | Discounts | 7.0% | at most 5% | $2,550 |
-| Open hours (shown separately) | 48% booked | 56% | 38 hours, about $20,243 |
+| Open hours (shown separately) | 48% booked | 56% | 39 hours, about $20,243 |
 
 **The finding:** rebooking is the biggest leak. Fix it first, then inquiries. The leaks overlap, so don't add them up.
 
