@@ -4,18 +4,18 @@
     "name": "Audrey Campbell, MPH (The Audrey Aesthetic)"
   },
   "metadata": {
-    "description": "Free AI skills, calculators and kits for medical aesthetics practices."
+    "description": "Free Claude skills and kits for medical aesthetics practices."
   },
   "plugins": [
     {
       "name": "price-your-treatment-menu",
       "source": "./plugins/price-your-treatment-menu",
-      "description": "Price neurotoxin and filler per area (filler as a range), check every treatment's margin for members, and draft the patient-facing menu."
+      "description": "Drop in your menu, invoices, membership and overhead; get your true cost per treatment, recommended prices, a member margin check and a draft menu."
     },
     {
       "name": "where-is-my-med-spa-losing-money",
       "source": "./plugins/where-is-my-med-spa-losing-money",
-      "description": "Find the leak costing your med spa the most from ten monthly totals, and get a 30-day plan to fix it."
+      "description": "Drop in last month's reports; see which leak costs your med spa the most and get a 30-day plan to fix it."
     },
     {
       "name": "find-your-medical-director",

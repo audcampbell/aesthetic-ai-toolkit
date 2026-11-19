@@ -1,7 +1,7 @@
 {
   "name": "price-your-treatment-menu",
-  "version": "1.1.0",
-  "description": "Price neurotoxin and filler per area (filler as a range), check every treatment's margin for members, and draft the patient-facing menu.",
+  "version": "2.0.0",
+  "description": "Drop in your menu, invoices, membership and overhead; get your true cost per treatment, recommended prices, a member margin check and a draft menu.",
   "author": {
     "name": "Audrey Campbell, MPH",
     "url": "https://theaudreyaesthetic.com"

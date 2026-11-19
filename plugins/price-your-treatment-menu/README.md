@@ -1,28 +1,43 @@
 # Price your treatment menu
 
-A free pricing tool for med spas, dermatology and plastic surgery practices, by Audrey Campbell, MPH ([The Audrey Aesthetic](https://theaudreyaesthetic.com)).
+A free Claude skill for med spas, aesthetics, wellness and plastic surgery practices, by Audrey Campbell, MPH ([The Audrey Aesthetic](https://theaudreyaesthetic.com)).
 
-Put in what each treatment really costs you: product, waste, supplies, topical numbing, provider time and the room it ties up.
+Drag in your treatment menu, product invoices or cost of goods, membership details and monthly overhead. The skill reads them, asks only for what's missing, works out what every treatment really costs you, and hands back recommended prices.
 
-- **Neurotoxin and filler priced per area**, which we recommend. Neurotoxin starts at the 64-unit upper-face dose, and filler is priced as a range across the syringes an area usually takes. The per-unit equivalent is shown too, so you can compare.
-- **A margin check for members**, so a membership discount never turns a treatment into a loss.
-- **Skin and device treatments**: microneedling, RF microneedling, BBL or IPL, peels and laser.
-- **Your market and positioning** (value, mid-market or luxury) set your starting profit target and how the menu is worded. The tool never looks up other practices' prices.
+## How to use it
+
+1. Install it (below).
+2. In Claude, say "price my menu" and drag in whatever you have: a menu PDF or screenshot, invoices, your membership terms, a P&L or a plain list of monthly costs, and last month's sales by service. No files? It offers a fill-in template.
+3. Answer what's missing, a few questions at a time, each with a suggested answer:
+   - **Market and positioning:** rural or small town, suburban, a mid-size city, a major metro or a resort market; value, mid-market or luxury.
+   - **Your profit goal** for each treatment. It suggests 30% on neurotoxin and filler as a strong goal, and 45% or more on skin, facial and device treatments.
+   - **Neurotoxin:** vial size, what you pay per vial after rebates, how you dilute, how your product compares to Botox units (Daxxify at 2 to 1), and whether all your toxins cost the same per area. It works out your cost per unit.
+   - **How you price:** Audrey recommends per area for neurotoxin and filler. Per unit and per syringe are supported, priced side by side.
+   - **Time, capacity and what comes off each sale:** with typical numbers if you don't know yours.
+
+## What you get back
+
+- Your true cost per unit, per syringe and per treatment
+- A recommended price for every treatment, with your margin for regular patients and for members, checked against published price ranges for your market
+- Recommendations for anything losing money or under target, and a membership check
+- A service mix check: each treatment's share of revenue next to its share of profit and its profit per hour, and how to grow the higher-margin work (microneedling, facials, peels) around your injectables
+- Supplies and cost tips, and a patient-facing menu in your voice
+- A spreadsheet of the tables to keep
 
 ## What's in this folder
 
 | File | What it is |
 |---|---|
-| `price-your-treatment-menu.xlsx` | The calculator as a spreadsheet. It opens in Excel, Google Sheets (File, then Import) or Numbers. Fill in the shaded cells. |
-| `SKILL.md` | An AI skill that explains your results and drafts the menu patients see. It works in Claude, ChatGPT or any AI. |
-| `sample-practice.md` | The made-up practice used in the example, with its full results. |
+| `skills/price-your-treatment-menu/SKILL.md` | The Claude skill. Paste it into ChatGPT or any AI if you don't use Claude. |
+| `skills/price-your-treatment-menu/references/market-ranges.md` | Published price and product-cost ranges (sources and dates listed) that the skill uses as a sanity check, never as a price to copy. |
+| `skills/price-your-treatment-menu/references/intake-template.md` | A fill-in template for owners without files to drop in. |
 
-The same calculator runs in your browser at theaudreyaesthetic.com/guides/price-your-treatment-menu.
 
 ## How the math works
 
-No AI does the arithmetic. The method is time-driven activity-based costing: each cost is charged by the minutes a treatment uses of a room or a provider.
+The skill runs every formula in code, never in its head, and shows its work. The method is time-driven activity-based costing: each cost is charged by the minutes a treatment uses of a room or a provider.
 
+- **Cost per unit** = what you pay for a vial, after rebates ÷ units in the vial
 - **Facility cost per room hour** = room and facility costs ÷ (rooms × room hours × how full)
 - **Team cost per provider hour** = team and admin costs ÷ (providers × provider hours × how full)
 - **Neurotoxin product** = units × cost per unit × (1 + waste)
@@ -38,20 +53,21 @@ No AI does the arithmetic. The method is time-driven activity-based costing: eac
 - **Upper face:** starts at 64 units, the FDA-labeled dose for Botox Cosmetic and Xeomin.
 - **Frown lines:** Botox Cosmetic, Xeomin, Jeuveau and Letybo 20; Dysport 50; Daxxify 40.
 - **Upper face for other products:** 64 Botox units converted at a common ratio: about 3 to 1 for Dysport (192), 2 to 1 for Daxxify (128), and 1 to 1 for Jeuveau and Letybo (64). These ratios are a clinical convention, not FDA doses.
+- **Price per unit follows the ratio:** Audrey recommends 2 Daxxify units to 1 Botox unit, and pricing each toxin so an area costs about the same whichever one the patient chooses. If Botox is $14 a unit, Daxxify is about $7. If Botox is $15, Dysport is about $5.
 
-Dosing is always your provider's decision. The calculator never suggests fewer units to hit a price.
+Dosing is always your provider's decision. The skill never suggests fewer units to hit a price.
 
 ## Install the skill
 
-- **Claude:** turn on file creation under Settings, Capabilities. Then go to Customize, Skills, +, Upload a skill, and pick this folder as a zip.
-- **Claude Code:** copy this folder into `~/.claude/skills/`, or add this repository as a plugin marketplace.
+- **Claude:** turn on file creation under Settings, Capabilities. Then go to Customize, Skills, +, Upload a skill, and pick `price-your-treatment-menu.zip` from the `downloads` folder.
+- **Claude Code:** `/plugin marketplace add audcampbell/aesthetic-ai-toolkit`, then `/plugin install price-your-treatment-menu@aesthetic-ai-toolkit`.
 - **ChatGPT:** create a Project and paste `SKILL.md` into its instructions.
 - **Any other AI:** paste `SKILL.md` at the top of a new chat.
 
 ## Before you use it
 
 - Use the costs on your own invoices, after rebates. Product prices and loyalty programs change often. Every number in the example is made up.
-- It works only from your own costs. Your market is used only to word the menu. It doesn't show what other practices charge, and it isn't a market price.
+- Your price comes from your own costs and target. The published ranges are a sanity check, never a price to copy, and the skill never names what a nearby practice charges.
 - Many states treat commission on medical procedures, or a medical director paid a percentage of revenue, as illegal fee-splitting. Ask a healthcare attorney.
 - When you publish prices, follow your state's rules on advertising medical prices.
 - Keep patient information out. The tool only needs business numbers.
@@ -61,8 +77,8 @@ Dosing is always your provider's decision. The calculator never suggests fewer u
 
 Audrey builds full pricing models with a practice's real costs, moves menus to per-area pricing, tests memberships against them, and sets up the monthly report.
 
-Want a clearer view of your cost of goods? Audrey recommends [Medvelle](https://www.medvelle.com/) for purchasing and inventory (partner). [Get in touch](https://theaudreyaesthetic.com/#contact).
+Want to understand your cost of goods better? Audrey suggests [Medvelle](https://www.medvelle.com/) for purchasing and inventory (partner). Or [reach out to Audrey](https://theaudreyaesthetic.com/#contact) to put this to work or build your Claude dashboard.
 
 ## License
 
-The skill and the spreadsheet are MIT licensed. The guide text is CC BY 4.0. Use them, and credit The Audrey Aesthetic.
+The skill is MIT licensed. The guide text is CC BY 4.0. Use them, and credit The Audrey Aesthetic.
