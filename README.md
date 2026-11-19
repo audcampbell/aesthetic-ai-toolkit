@@ -13,6 +13,11 @@ Each skill stands on its own. Take only the one you need. Drop in your practice'
 | [Find and vet your medical director](plugins/find-your-medical-director) | First-call questions, a scorecard for comparing candidates, red flags, and a brief for your healthcare attorney. US; not legal advice. | [Skill (.zip)](downloads/find-your-medical-director.zip) |
 | [Claim your practice in ChatGPT](plugins/claim-your-practice-in-chatgpt) | See what ChatGPT, Gemini and Perplexity say about you, claim your ChatGPT Business Hub listing, fix wrong details, and track mentions monthly. | [Skill (.zip)](downloads/claim-your-practice-in-chatgpt.zip) |
 | [Ad Claim Check](plugins/ad-claim-check) | Screens US ads, captions, web pages and review replies for what the FTC, FDA, state boards, Meta or Google might flag, and rewrites them. Not legal advice. | [Skill (.zip)](downloads/ad-claim-check.zip) |
+| [Build your Claude dashboard](plugins/build-your-claude-dashboard) | Step by step: start with five KPIs, export the right reports, take out patient information, then build, share and refresh a monthly dashboard in Claude. | [Skill (.zip)](downloads/build-your-claude-dashboard.zip) |
+| [HIPAA-safe review replies](plugins/hipaa-safe-review-replies) | Paste a Google or Yelp review. Get a reply in your voice that never confirms the reviewer was a patient, and know which ones to take offline. Not legal advice. | [Skill (.zip)](downloads/hipaa-safe-review-replies.zip) |
+| [Lapsed patient win-back](plugins/lapsed-patient-win-back) | Work down expiring packages and member balances first, then bring back lapsed patients. Template emails and texts with your branding, a tracker, and opt-out rules built in. Never patient lists. | [Skill (.zip)](downloads/lapsed-patient-win-back.zip) |
+| [Claude-ready practice kit](plugins/claude-ready-practice-kit) | Set up five Claude Projects (front desk, marketing, finance, hiring, operations): what to paste, which files to add, which connectors to turn on, and what to leave out. | [Skill (.zip)](downloads/claude-ready-practice-kit.zip) |
+| [Build your provider pay plan](plugins/build-your-provider-pay-plan) | A pay plan and offer for an injector, esthetician or wellness provider: market base rate, a KPI bonus in flat dollars, raises and retention extras, with the cost checked. | [Skill (.zip)](downloads/build-your-provider-pay-plan.zip) |
 
 Want them all? [Download every tool at once (.zip)](downloads/aesthetic-ai-toolkit-all.zip).
 
@@ -30,7 +35,7 @@ Want them all? [Download every tool at once (.zip)](downloads/aesthetic-ai-toolk
 /plugin install price-your-treatment-menu@aesthetic-ai-toolkit
 ```
 
-Swap in `where-is-my-med-spa-losing-money`, `find-your-medical-director`, `ad-claim-check` or `claim-your-practice-in-chatgpt` for the others.
+Swap in `where-is-my-med-spa-losing-money`, `find-your-medical-director`, `ad-claim-check`, `claim-your-practice-in-chatgpt`, `build-your-claude-dashboard`, `hipaa-safe-review-replies`, `lapsed-patient-win-back`, `claude-ready-practice-kit` or `build-your-provider-pay-plan` for the others.
 
 **ChatGPT or any other AI:** open the tool's `SKILL.md` and paste it into a Project's instructions, or at the top of a new chat.
 

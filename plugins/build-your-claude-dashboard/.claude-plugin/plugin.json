@@ -1,0 +1,10 @@
+{
+  "name": "build-your-claude-dashboard",
+  "version": "1.0.0",
+  "description": "Start with five KPIs, export the right reports, take out patient information, and build, share and refresh a monthly KPI dashboard in Claude, step by step.",
+  "author": {
+    "name": "Audrey Campbell, MPH",
+    "url": "https://theaudreyaesthetic.com"
+  },
+  "license": "MIT"
+}

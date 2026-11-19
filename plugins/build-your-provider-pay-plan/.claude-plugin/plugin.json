@@ -1,0 +1,10 @@
+{
+  "name": "build-your-provider-pay-plan",
+  "version": "1.0.0",
+  "description": "Build a pay plan and offer for an injector, esthetician or wellness provider: a market base rate, a KPI bonus that rewards rebooking, consults, memberships and reviews, and retention extras like continuing education, with the cost checked in code.",
+  "author": {
+    "name": "Audrey Campbell, MPH",
+    "url": "https://theaudreyaesthetic.com"
+  },
+  "license": "MIT"
+}

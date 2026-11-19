@@ -1,0 +1,10 @@
+{
+  "name": "lapsed-patient-win-back",
+  "version": "1.1.0",
+  "description": "Bring patients back, starting with the ones who already paid: expiring packages, unused treatments and membership balances, then lapsed patients. Template emails and texts with your branding and provider names, a tracker, and consent rules built in.",
+  "author": {
+    "name": "Audrey Campbell, MPH",
+    "url": "https://theaudreyaesthetic.com"
+  },
+  "license": "MIT"
+}

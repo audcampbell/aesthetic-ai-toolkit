@@ -1,0 +1,10 @@
+{
+  "name": "claude-ready-practice-kit",
+  "version": "1.0.0",
+  "description": "Set up five Claude Projects for your practice (front desk, marketing, finance, hiring, operations): what files to add, which connectors to turn on, and what to leave out.",
+  "author": {
+    "name": "Audrey Campbell, MPH",
+    "url": "https://theaudreyaesthetic.com"
+  },
+  "license": "MIT"
+}

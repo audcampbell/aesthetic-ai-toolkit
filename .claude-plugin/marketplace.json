@@ -31,6 +31,31 @@
       "name": "claim-your-practice-in-chatgpt",
       "source": "./plugins/claim-your-practice-in-chatgpt",
       "description": "See what ChatGPT and other AI assistants say about your practice, claim your ChatGPT Business Hub listing, fix wrong details, and track mentions monthly."
+    },
+    {
+      "name": "build-your-claude-dashboard",
+      "source": "./plugins/build-your-claude-dashboard",
+      "description": "Start with five KPIs, export the right reports, take out patient information, and build, share and refresh a monthly KPI dashboard in Claude, step by step."
+    },
+    {
+      "name": "hipaa-safe-review-replies",
+      "source": "./plugins/hipaa-safe-review-replies",
+      "description": "Draft replies to Google and Yelp reviews in your practice's voice that never confirm someone is a patient or mention their care, and flag the ones to take offline."
+    },
+    {
+      "name": "lapsed-patient-win-back",
+      "source": "./plugins/lapsed-patient-win-back",
+      "description": "Bring patients back, starting with the ones who already paid: expiring packages, unused treatments and membership balances, then lapsed patients. Template emails and texts with your branding and provider names, a tracker, and consent rules built in."
+    },
+    {
+      "name": "claude-ready-practice-kit",
+      "source": "./plugins/claude-ready-practice-kit",
+      "description": "Set up five Claude Projects for your practice (front desk, marketing, finance, hiring, operations): what files to add, which connectors to turn on, and what to leave out."
+    },
+    {
+      "name": "build-your-provider-pay-plan",
+      "source": "./plugins/build-your-provider-pay-plan",
+      "description": "Build a pay plan and offer for an injector, esthetician or wellness provider: a market base rate, a KPI bonus that rewards rebooking, consults, memberships and reviews, and retention extras like continuing education, with the cost checked in code."
     }
   ]
 }

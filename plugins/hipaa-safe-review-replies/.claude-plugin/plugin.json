@@ -1,0 +1,10 @@
+{
+  "name": "hipaa-safe-review-replies",
+  "version": "1.0.0",
+  "description": "Draft replies to Google and Yelp reviews in your practice's voice that never confirm someone is a patient or mention their care, and flag the ones to take offline.",
+  "author": {
+    "name": "Audrey Campbell, MPH",
+    "url": "https://theaudreyaesthetic.com"
+  },
+  "license": "MIT"
+}
